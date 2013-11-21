@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200.0" prefWidth="320.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="com.livehereandnow.helloworld.HelloWorldController">
+  <children>
+    <Button fx:id="button" layoutX="19.0" layoutY="55.0" onAction="#handleButtonAction" text="Hello World! This is JavaFX POS " />
+    <Label fx:id="label" layoutX="19.0" layoutY="92.0" minHeight="16.0" minWidth="69.0" prefWidth="231.0" />
+  </children>
+  <stylesheets>
+    <URL value="@css.css" />
+  </stylesheets>
+</AnchorPane>
